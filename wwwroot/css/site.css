@@ -1,0 +1,208 @@
+﻿body {
+    background-color:dodgerblue;
+    color: whitesmoke;
+    width: auto;
+    height: auto;
+
+}
+
+h2{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 72px;
+    font-size: 60px;
+    font-family:monospace;
+    
+}
+.container {
+    background-color:tomato;
+    width: auto;
+    height: auto;
+    padding: 80px 0px 180px 10px;
+    border: 0px solid whitesmoke;
+    border-radius: 0px;
+    margin: 0px 160px 0px 160px;
+    font-size: 33px;
+}
+
+
+div.jumbotron {
+    background-color: black;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+    border-radius: 0px;
+    font-family: monospace;
+    font-size: 33px;
+
+}
+
+
+#header,
+Ul,
+li,
+h1 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 0px 0px 10px;
+    color: white;
+    margin-left: 30px;
+    font-size: 28px;
+
+}
+
+Ul#header{
+    margin: 20px 0px 0px 0px;
+    height:42px;
+    width:960px;
+}
+
+
+
+#footer,
+a {
+
+  
+    color: rgb(14, 81, 126);
+    text-align: center;
+    padding: 5px 30px 5px 0px;
+    font-size: 18px;
+}
+
+
+
+
+#footer {
+    background-color: rgb(210, 230, 248);
+    margin-top: 0px;
+    border-radius: 0px;
+ 
+   
+
+
+}
+
+.spans {
+    color: rgb(23, 95, 179);
+}
+
+
+#icon01{
+height: 68px;
+width: 68px;
+}
+
+
+@-webkit-keyframes bounce {
+
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    40%,
+    43% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        -webkit-transform: translate3d(0, -30px, 0);
+        transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        -webkit-transform: translate3d(0, -15px, 0);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, -4px, 0);
+        transform: translate3d(0, -4px, 0);
+    }
+}
+
+@keyframes bounce {
+
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    40%,
+    43% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        -webkit-transform: translate3d(0, -30px, 0);
+        transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        -webkit-transform: translate3d(0, -15px, 0);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, -4px, 0);
+        transform: translate3d(0, -4px, 0);
+    }
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+
+
+#icon01 {
+    /* This section calls the slideInFromrightt animation we defined above */
+    animation: 1s ease-out .3s 20 bounce;
+}
+
+
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+
+h3 {
+    /* This section calls the slideInFromrightt animation we defined above */
+    animation: 3s ease-out 0s 1 fadeInDown;
+}
+
+li {
+    /* This section calls the slideInFromrightt animation we defined above */
+    animation: 3s ease-out 0s 1 fadeInDown;
+}

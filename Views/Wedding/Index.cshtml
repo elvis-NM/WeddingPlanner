@@ -1,0 +1,64 @@
+@model List<Wedding>
+
+
+
+    <div class="container">
+         <a asp-controller="Wedding" asp-action="Logout"><h1>Log Out</h1></a>
+
+                <h1>Wedding Dashboard!!</h1>
+                <hr>
+            
+
+               
+
+                
+                <table class= "table table-hover"> 
+                    <thead>
+
+                        <tr>
+                            <th>Wedding</th>
+                            <th>Date</th>
+                            <th>Guest Count</th>  
+                            <th>Planner</th>             
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    
+            @foreach (var wedding in Model)
+            {
+                <tr>
+                        <td> 
+                            <a asp-route-weddingId="@wedding.WeddingId" 
+                            asp-controller= "Wedding" asp-action = "Show" > @wedding.Groom @wedding.Bride </a></td>
+                        <td>@wedding.Date</td>
+                        <td>@wedding.Responses.Count</td>
+                        <td>@wedding.Planner.FullName</td>
+                        
+                        @{
+                            if(wedding.UserId == ViewBag.UserId)
+                                {
+                                    <td> <a href="weddings/delete/@wedding.WeddingId"> Delete </a></td>
+                                }
+                                else if(wedding.Responses.Any(r => r.UserId == ViewBag.UserId))
+                                {
+                                    <td> <a asp-action="Unrsvp" asp-controller="Wedding" asp-route-weddingId="@wedding.WeddingId"> Un-RSVP</a></td>
+                                }
+                                else
+                                {
+                                    <td> <a asp-action="Rsvp" asp-controller="Wedding" asp-route-weddingId="@wedding.WeddingId"> RSVP </a></td>
+                                }
+                            }
+                        
+                    </tr>
+
+            }
+
+                    </tbody>
+
+
+                </table>
+                <a href="/newWedding"><input type="button" value="New Wedding"></a>
+
+    </div>
+

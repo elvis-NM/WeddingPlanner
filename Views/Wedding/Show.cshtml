@@ -1,0 +1,25 @@
+@model  Wedding
+
+
+<div class="container">
+    <a asp-controller="Wedding" asp-action="Index"><h1>Dashboard</h1></a><a asp-controller="Wedding" asp-action="Logout"><h1>Log Out</h1></a><hr>
+    <h1>Wedding For: @Model.Bride and @Model.Groom   </h1>
+    <hr>
+    <h1>Planner: @Model.Planner.FullName  </h1>
+    <hr>
+
+    <h1>Date: @Model.Date.ToString("d") </h1><hr>
+
+      <h1><strong>Venue: @Model.Venue </strong></h1><hr>
+
+    <h1><strong>Guests:</strong></h1>
+
+    @foreach (var rsvp in @Model.Responses)
+
+    {
+        <h1>@rsvp.Guest.FullName ,</h1>
+    }
+
+
+
+</div>
