@@ -149,32 +149,32 @@ namespace WeddingPlanner.Controllers
         [HttpGet("portfolioo")]
         public IActionResult Portfolioo()
         {
-            return Redirect("http://18.220.143.167/");
+            return Redirect("http://18.220.137.34/");
         }
 
         [HttpGet("about")]
         public IActionResult About()
         {
-            return Redirect("http://18.220.143.167/about/");
+            return Redirect("http://18.220.137.34/about/");
         }
 
         [HttpGet("python")]
         public IActionResult Python()
         {
-            return Redirect("http://18.220.143.167/python/");
+            return Redirect("http://18.220.137.34/python/");
         }
 
         [HttpGet("csharp")]
         public IActionResult Csharp()
         {
-            return Redirect("http://18.220.143.167/csharp/");
+            return Redirect("http://18.220.137.34/csharp/");
         }
 
 
         [HttpGet("contact")]
         public IActionResult Contact()
         {
-            return Redirect("http://18.220.143.167/about/Pdf");
+            return Redirect("http://18.220.137.34/about/Pdf");
         }
 
     }

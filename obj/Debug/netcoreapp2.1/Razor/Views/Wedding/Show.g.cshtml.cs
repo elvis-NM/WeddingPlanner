@@ -56,7 +56,7 @@ using WeddingPlanner.Models;
             WriteLiteral("\n\n<div class=\"container\">\n    ");
             EndContext();
             BeginContext(46, 69, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "45920d5f9af04a9999ee045433433ab1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "35eb0b41953c4a5099fdad3350639910", async() => {
                 BeginContext(93, 18, true);
                 WriteLiteral("<h1>Dashboard</h1>");
                 EndContext();
@@ -77,7 +77,7 @@ using WeddingPlanner.Models;
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             EndContext();
             BeginContext(115, 68, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1160f4b9a2cd4f95ad1d3820b062e40b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "823870cf83534b438bb617ae404866a7", async() => {
                 BeginContext(163, 16, true);
                 WriteLiteral("<h1>Log Out</h1>");
                 EndContext();

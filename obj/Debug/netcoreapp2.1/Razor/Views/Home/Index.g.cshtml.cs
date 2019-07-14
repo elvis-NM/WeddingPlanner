@@ -55,7 +55,7 @@ using WeddingPlanner.Models;
             WriteLiteral("\r\n\r\n\r\n<div class=\"container\">\r\n        \r\n        <h1>Your  Wedding Planner !</h1><br>\r\n        <h1>Plan a Wedding !</h1><br>\r\n        <h1>Allow Guests to RSVP !!</h1><br> \r\n        <h1>Signup or Login to begin planning !!! </h1> <br><br><hr>\r\n\r\n        ");
             EndContext();
             BeginContext(266, 28, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "27ddbe88397e4d749033ad7b3485a983", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "09ea3fdc9d5743f2845214856e27c398", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -74,7 +74,7 @@ using WeddingPlanner.Models;
             WriteLiteral("  <hr>\r\n        ");
             EndContext();
             BeginContext(310, 30, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "90618025406444878d74e1830c4d8a88", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c09f0b0f580747d28782d9ebf0921a01", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
