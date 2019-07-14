@@ -146,7 +146,36 @@ namespace WeddingPlanner.Controllers
             return Redirect("/");
         }
 
+        [HttpGet("portfolioo")]
+        public IActionResult Portfolioo()
+        {
+            return Redirect("http://18.220.143.167/");
+        }
 
+        [HttpGet("about")]
+        public IActionResult About()
+        {
+            return Redirect("http://18.220.143.167/about/");
+        }
+
+        [HttpGet("python")]
+        public IActionResult Python()
+        {
+            return Redirect("http://18.220.143.167/python/");
+        }
+
+        [HttpGet("csharp")]
+        public IActionResult Csharp()
+        {
+            return Redirect("http://18.220.143.167/csharp/");
+        }
+
+
+        [HttpGet("contact")]
+        public IActionResult Contact()
+        {
+            return Redirect("http://18.220.143.167/about/Pdf");
+        }
 
     }
 }

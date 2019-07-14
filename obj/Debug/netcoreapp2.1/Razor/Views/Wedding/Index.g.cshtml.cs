@@ -58,7 +58,7 @@ using WeddingPlanner.Models;
             WriteLiteral("\n\n\n    <div class=\"container\">\n         ");
             EndContext();
             BeginContext(61, 68, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52c83e09ee7f43e7ac64a884b245526d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "121a6e5c3a0d40979147da6dcb9ee7c1", async() => {
                 BeginContext(109, 16, true);
                 WriteLiteral("<h1>Log Out</h1>");
                 EndContext();
@@ -113,7 +113,7 @@ using WeddingPlanner.Models;
             WriteLiteral("                <tr>\n                        <td> \n                            ");
             EndContext();
             BeginContext(840, 155, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "322995238f914f6bac9a3440b6935e7b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dd421208b3024137912ce9f8200c524c", async() => {
                 BeginContext(960, 1, true);
                 WriteLiteral(" ");
                 EndContext();
@@ -231,7 +231,7 @@ WriteAttributeValue("", 1382, wedding.WeddingId, 1382, 18, false);
             WriteLiteral("                                    <td> ");
             EndContext();
             BeginContext(1625, 101, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d411317141b842ccb81ba4d46a4648e2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b5bfad69165243d3a78ff4dfa2383372", async() => {
                 BeginContext(1714, 8, true);
                 WriteLiteral(" Un-RSVP");
                 EndContext();
@@ -278,7 +278,7 @@ WriteAttributeValue("", 1382, wedding.WeddingId, 1382, 18, false);
             WriteLiteral("                                    <td> ");
             EndContext();
             BeginContext(1878, 97, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c16429664adf4d6ba3c8c9e5786bdbe6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7989cc5613e54de8984f8fd4ff51c071", async() => {
                 BeginContext(1965, 6, true);
                 WriteLiteral(" RSVP ");
                 EndContext();
